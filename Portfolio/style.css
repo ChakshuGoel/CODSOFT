@@ -1,0 +1,33 @@
+
+        
+        body {
+            font-size: 16px;
+        }
+
+        header {
+            padding: 1rem;
+        }
+
+        #about {
+            background-color: #f9f9f9;
+        }
+        
+        #skills {
+            box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+        }
+
+        .project {
+            background-color: #ffffff;
+            border: 1px solid #e0e0e0;
+            transition: transform 0.3s ease;
+        }
+        .project:hover {
+            transform: translateY(-5px);
+        }
+
+        #contact {
+            background: linear-gradient(to right, #4299e1, #0d6efd);
+            color: #fff;
+            padding: 2rem;
+        }
+   
