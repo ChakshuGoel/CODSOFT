@@ -1,32 +1,84 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 
 <head>
     <meta charset="UTF-8">
-    <title>Sports Daily Updates</title>
-    <link rel="stylesheet" type="text/css" href="style.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Your Name - Portfolio</title>
+    <link href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.7/dist/tailwind.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
+    <link rel="stylesheet" href="style.css">
 </head>
 
-<body>
-    <header>
-        <h1>Welcome to Sports Daily Updates</h1>
+<body class="bg-gray-100 font-sans">
+
+    <header class="bg-blue-600 text-white py-4">
+        <div class="text-center">
+            <h1 class="text-4xl font-bold">Your Name</h1>
+            <p class="text-lg">Web Developer</p>
+        </div>
     </header>
-    <div class="container">
-        <div class="sports-card">
-            <h2>Experience the Heart-Pounding World of Formula 1 Racing!</h2>
-            <p>Are you a thrill-seeker? Do you crave the rush of adrenaline that only motorsport can provide? Dive into
-                the heart-pounding world of Formula 1, where speed, precision, and excitement converge to create a
-                spectacle like no other. Get ready for a high-speed adventure!</p>
-            <a href="#" class="cta-button">Stay in the Fast Lane - Subscribe Now!</a>
+
+    <section id="about" class="p-8">
+        <div class="flex flex-col items-center">
+            <img src="Untitled design.png" alt="Your Name" class="w-32 h-32 rounded-full mb-4 shadow-lg">
+            <p class="text-lg text-center">Hi, I'm Your Name. I'm a web developer with a passion for creating beautiful
+                and functional websites. I have experience in front-end and back-end development, and I'm always eager
+                to learn and explore new technologies.</p>
         </div>
-        <div class="sports-card">
-            <h2>Unleash the Power of NBA Basketball - Slam Dunks and Three-Pointers Galore!</h2>
-            <p>Love basketball? Crave those jaw-dropping slam dunks and electrifying three-pointers? The NBA is where
-                legends are made, and we're here to keep you in the know about all things basketball. Get ready to
-                experience the slam dunk sensation!</p>
-            <a href="#" class="cta-button">Get Courtside - Sign Up for Updates!</a>
+    </section>
+
+    <section id="skills" class="p-8">
+        <h2 class="text-2xl font-semibold mb-4">Skills</h2>
+        <ul class="list-disc list-inside">
+            <li>HTML</li>
+            <li>CSS</li>
+            <li>JavaScript</li>
+            <li>PHP</li>
+            <li>React</li>
+        </ul>
+    </section>
+
+    <section id="projects" class="p-8">
+        <h2 class="text-2xl font-semibold mb-4">Projects</h2>
+        <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6">
+            <div class="project p-4 rounded-lg shadow-md">
+                <h3 class="text-xl font-semibold mb-2">Project 1</h3>
+                <p class="text-gray-600">Short description of your first project.</p>
+                <img src="project1.jpg" alt="Project 1" class="w-full mt-2">
+            </div>
+            <div class="project p-4 rounded-lg shadow-md">
+                <h3 class="text-xl font-semibold mb-2">Project 2</h3>
+                <p class="text-gray-600">Short description of your second project.</p>
+                <img src="project2.jpg" alt="Project 2" class="w-full mt-2">
+            </div>
         </div>
-    </div>
+    </section>
+
+    <section id="resume" class="p-8">
+        <h2 class="text-2xl font-semibold mb-4">Resume</h2>
+        <p class="text-gray-600">Download my <a href="ChakshuResume.pdf" target="_blank"
+                class="text-blue-600">resume</a>.</p>
+    </section>
+
+    <section id="contact" class="p-8">
+        <h2 class="text-2xl font-semibold mb-4">Contact</h2>
+        <p class="text-white">Email:chakshugoel1@gmail.com</p>
+        <p class="text-white">Phone: +91 8xx7xx37x</p>
+        <div class="mt-4">
+            <a href="https://github.com/yourusername" target="_blank" class="text-white hover:underline">
+                <i class="fab fa-github"></i> GitHub
+            </a>
+            <span class="mx-2">•</span> <!-- Vertical separator -->
+            <a href="https://www.linkedin.com/in/chakshugoel/" target="_blank" class="text-white hover:underline">
+                <i class="fab fa-linkedin"></i> LinkedIn
+            </a>
+        </div>
+    </section>
+
+    <footer class="bg-blue-600 text-white text-center py-4">
+        <p>&copy; 2023 Your Name</p>
+    </footer>
 </body>
 
 </html>
